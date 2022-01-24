@@ -44,22 +44,29 @@
 			<h3>You can't enjoy life if you don't show up.</h3>
 			<p>- Yet another of James Burk's great quotes.</p>
 			<br>
+			
 			<article>
+			
       <h2>We don't charge anything, but if you want to donate or pay for the extra training at Try Hack Me, please fill out the following:</h2>
-      <form>
-         <input type="checkbox" id="donate10" value="10" />
-         <label for="donate10">Donate $10</label>
-         <input type="checkbox" id="donate15" value="15" />
-         <label for="donate10">Donate $15</label>
-         <input type="checkbox" id="donate20" value="8" />
-         <label for="donate10">Donate $20</label>
-         <input type="checkbox" id="donate30" value="13" />
-         <label for="donate10">Donate $30</label>
-         <input type="checkbox" id="thme" value="30" />
-         <label for="thme">Pay a one time fee of $30 for Tryhackme.com plus tax</label>
-         <input type="submit" id="submit" value="Submit" />
+     
+	  <form>
+         <ul style="list-style-type:non">
+		 <li><input type="checkbox" id="donate10" value="10" />
+         <label for="donate10">Donate $10</label></li>
+         <li><input type="checkbox" id="donate15" value="15" />
+         <label for="donate10">Donate $15</label>></li>
+         <li><input type="checkbox" id="donate20" value="8" />
+         <label for="donate10">Donate $20</label>></li>
+         <li><input type="checkbox" id="donate30" value="13" />
+         <label for="donate10">Donate $30</label>></li>
+         <li><input type="checkbox" id="thme" value="30" />
+         <label for="thme">Pay a one time fee of $30 for Tryhackme.com plus tax</label>></li>
+         <li><input type="submit" id="submit" value="Submit" /></li>
+		 </ul>
       </form>
+	   
    </article>
+  
    <script>
 		function calcTotal() { 
 			var itemTotal = 0;
@@ -75,7 +82,8 @@
 			(donate30.checked) ? (itemTotal += 30) : (itemTotal += 0);
 			(thme.checked) ? (tryhack += 30) : (tryhack += 0);
 			var salesTaxRate = 0.085;
-			itemTotal *= 100;	
+			itemTotal *= 100;
+			tryhack *= 100;
 			var orderTotal = (itemTotal + (tryhack * salesTaxRate) + tryhack) / 100;
 			alert("Your order total is $" + orderTotal);
 		}
