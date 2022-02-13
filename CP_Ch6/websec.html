@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CTF Competition Information Site</title>
+  <script src="modernizr.custom.65897.js"></script>
+</head>
+
+<body>
+	<header>
+	<img src="CIS74CTF.jpg" width="200px" />
+      <h1>CTF Competition page</h1>
+	  <h3>All you ever wanted to know about CTFs (like what the heck are they?) but were afraid to ask!</h3>
+	<nav>
+	      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="wth.html">What is a CTF?</a></li>
+        <li><a href="resources.html">Resources</a></li>
+        <li><a href="cyberclub.html">About the Chaffey cybersecurity club</a></li>
+		<li><a href="websec.html">Staying safe on the web</a>
+      </ul>
+	  </nav>
+    </header>
+    <aside>
+      
+      <br>
+      <h2>Web security. Are you safe?</h2>
+	  <h3>From the text, there are six properties that will show
+	  how much info anyone, including this website, can get on you!</h3>
+		<ul>
+			<li>onLine</li>
+				<ul>
+					<li>This can tell if you are connected to a network connection or not.</li>
+				</ul>
+			<li>appName</li>
+				<ul>
+					<li>This can tell the name of your web browser you are using to look at the page.</li>
+					</ul>
+			<li>appVersion</li>
+				<ul>
+					<li>This tells what version of your web broswer you are using to display the page.</li>
+					</ul>
+			<li>geolocation</li>
+				<ul>
+					<li>This one is really scary because it can tell where you are at, assuming you are not obfuscating your whereabouts with a VPN or something like that.</li>
+					</ul>
+			<li>platform</li>
+				<ul>
+					<li>This tells what operating system you are using.</li>
+					</ul>
+			<li>userAgent</li>
+				<ul>
+					<li>This stores in the HTTP user-agent request header information on your browser, platform name like your OS, and compatability.</li>
+				</ul>
+			</ul>
+		<h3>What does all this mean though?</h3>
+		<p>To be blunt, it means a lot. Here is why, most of that information can help a 
+		hacker know what tools to use to attack your system. It can also help them
+		identify ways to social engineer you so you will download a virus that gives
+		them control of your system. There are many exploits out there that don't even 
+		require you to have a virus. They are called exploits and they allow a hacker 
+		to gain access to your system, and the operators I just listed allow them to 
+		figure out which one of those exploits to use. It even tells them what version
+		you are using so they can fine-tune the attack.</p>
+		<p>Following are some articles about exploits and some of the practices to shore up your defenses against attacks:</p>
+		<ol>
+			<li><a href="https://www.zdnet.com/article/white-house-creates-board-to-review-cybersecurity-incidents-members-to-start-with-log4j/">White House creates board to review cybersecurity incidents, members to start with Log4J</a></li>
+				<ul>
+					<li>This article is about the Log4J vulnerability. Even if you were a big company with all of the up to date patches, you were still hackable.
+					 Even now, 1000s of computers are still at risk.</li>
+					 </ul>
+			<li><a href="https://www.lbc.co.uk/politics/the-news-explained/stay-safe-online-10-ways-to-protect-yourself-on-th/#:~:text=Stay%20Safe%20Online%3A%2010%20Ways%20To%20Protect%20Yourself,a%20victim%20of%20cyberbullying%2C%20do%20not%20answer%20back">Stay Safe Online: 10 Ways To Protect Yourself</a>
+				<ul>
+					<li>This is LBC's guide for how to stay safe online - covering hacking, phishing, trolling, email scams and cyberbullying.</li>
+				</ul>	
+			<li><a href="https://www.marketing91.com/10-best-ways-to-stay-safe-online/#:~:text=10%20Best%20Ways%20To%20Stay%20Safe%20Online%201,10%20Antivirus%20Program%20should%20be%20Up%20To%20Date">10 Best Ways To Stay Safe Online</a>
+				<ul>
+					<li>This is another top 10 type guide, but the information is still very useful. I only wish they went into detail on how to implement it.</li>
+				</ul>
+			<li><a href="https://www.alltechbuzz.net/what-is-a-vpn-and-why-you-need-one-everything-you-need-to-know-in-2021/#:~:text=As%20was%20mentioned%20earlier%2C%20VPNs%20aid%20users%20by,can%20block%20malicious%20ads%2C%20trackers%2C%20and%20websites.%20">What Is a VPN, and Why You Need One: Everything You Need to Know in 2021</a>
+				<ul>
+					<li>This details why you should use a VPN and how it works. It's an important read.</li>
+				</ul>
+		</ol>
+		<h3>Here is my two top things I recommend you do NOW.</h3>
+		<p>First, change how you use passwords. I know I said two things, but the following three things are part of the first one:</p>
+		<ol>
+			<li>Stop using a password and start using a passphrase replacing letters 
+			with characters. Here is an example that you should not use, but it is 
+			an example: 
+			<br>maryhadalittlelamb. 
+			<br>Except you write that like this: 
+			<br>M@rrYh@d@1177131@mB. 
+			<br>If you look at it, I replaced the letter a with an @ symbol, 
+			the letters L and I with the number 1, and the letter T with the number 7.
+			I also randomly capitalized letters. Think of your favorite quote or a joke.
+			My passphrase is approximately 30 letters long, give or take 4 letters 
+			just to keep myself safe. When I first used it, I messed up a lot, but then I 
+			got the hang of it and now it's second nature. Even thought the random characters
+			and capitalizations can be brute-forced by software, a 20 plus long character password can't,
+			at least at the moment. Quantum computing will change all that and passwords will be a thing
+			of the past, but that's a whole other story. </li>
+			<li>Use two, or even threee, factor authentication. That means you not 
+			only use your password, but you also have to get a code off of your phone,
+			or you have to click a button in an app, or you have to plug in a USB device.
+			 I bought my wife a Yubikey online for Christmas. I'm not endorsing it, but she said 
+			 that it was a bit of work setting it up, but once she did, she loves it and feels 
+			 much safer. I have a lot of websites that will text me some sort of key on top of using 
+			 my password. The nice thing about Yubikey is that a lot of those websites skip that if you 
+			 have the key plugged into a USB port on the device you are trying to connect with the site.</li>
+			<li>Finally, use a password manager. The only good argument against this is that if
+			they get hacked, they have all your passwords. That is true. I use LastPass and 
+			they have been hacked and I've had to change all my passwords. It was a pain. But that 
+			happens so rarely, the benefit outweighs the detriment. If you use one of these, you randomly 
+			generate a long password (see number 1 on this list) that can be as long as you want, 
+			and you never have to remember it. And it can't be bruteforced with today's modern
+			 computers. You only have to remember one password and you're good to go. This is 
+			 valuable because you should never use the same password twice for anything, and this 
+			 let's you do that easily. Look into it just by searching 'password managers'.</li>
+		</ol>
+
+      <form>
+        <label>Email: <input type="text" name="email"></label><br>
+        <label> Mobile: <input type="text" name="mobile"> </label><br>
+        <textarea name="comments" rows="4">Questions or comments</textarea><br>
+        <input type="submit" value="Submit" /><br>
+      </form>
+    </main>
+    <footer>&copy; James Burk's school <a href = "mailto: jburk4672@panther.chaffey.edu">email</a></footer>
+  </div>
+</body>
+
+</html>

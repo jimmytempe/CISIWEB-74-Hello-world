@@ -1,0 +1,266 @@
+ <!DOCTYPE html> 
+ <html lang="en"> 
+
+ <head> 
+   <meta charset="UTF-8"> 
+   <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+   <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+   <link rel="stylesheet" href="styles.css" />
+   <link href='http://fonts.googleapis.com/css?family=Tangerine' rel='stylesheet' type='text/css'>
+   <script src="control.js"></script>
+   <title>CTF Competition Information Site</title> 
+ </head> 
+
+ <body> 
+	 <header> 
+	 <img src="CIS74CTF.jpg" alt= "image of flag with writing" width="200" /> 
+       <h1>CTF Competition page</h1> 
+	   <h3>What the heck is a CTF?</h3> 
+	 <nav> 
+	       <ul> 
+         <li><a href="index.html">Home</a></li> 
+         <li><a href="wth.html">What is a CTF?</a></li> 
+         <li><a href="resources.html">Resources</a></li> 
+         <li><a href="cyberclub.html">About the Chaffey cybersecurity club</a></li> 
+		 <li><a href="websec.html">Staying safe on the web</a>
+       </ul> 
+	   </nav> 
+     </header> 
+    
+     <main> 
+       <h2>The Chaffey College Cybersecurity Club</h2> 
+		 <p>The best way to tell you about the club, is to give you an idea of how the meetings go and what we do in them. Here is a general list of how we structure our formal meetings:</p> 
+		 <ol> 
+			 <li>We open the meeting with announcements from our club advisor, Professor Nimri</li> 
+			 <li>I go over old business, which there is rarely any, and ask if there is new business, which is not often. Basically, this is housekeeping stuff.</li> 
+			 <li>I try to welocome and introduce new members, as well as some old ones.</li> 
+			 <li>We then discuss cybersecurity news, events, CTF schedules, training schedules, and whatever else comes to mind.</li> 
+			 <li>At this point I try to play a short video, preferrably 5 minutes or less, but never more than 20 minutes. Its usually fairly informative. The topic can be on hacking, getting a job of any sort, and news.</li> 
+			 <li>I then demo some hacking, and I usually ask people to follow along with me on their own computers if they can.</li> 
+			 <li>I end the meeting by asking for feedback as well as answering any questions, then a little bit of housekeeping to close the meeting out.</li> 
+		</ol>	 
+			 <p>Keep in mind, that we can joke around and do stuff as all of this goes on. This format I'm giving is for the Zoom meetings, because that is all the school allows right now.</P> 
+			 <h4>Discord</h4> 
+			 <p>We also have a Discord channel. That is very informal, has a fair amount of people who don't go to the official meetings, as well as some alumni. We talk about everything in there. It can be a little colorful in language, so not for the faint of heart. It can be a lot of fun though, especially when we do voice. We also help each other out a lot with our homework in there. It seems like any time of day or night, someone is in there willing to talk or help.</p> 
+			 <h4>Training</h4> 
+			 <p>I try to train people when we can all agree on a time. That time changes constantly depending on different folks' interests and schedules. When we do train, it can be a lot of fun.</p> 
+			 <p>In all, we try to not be too serious and just have fun. The people who are really good at tech truly enjoy helping those who are new and just starting out. You never need to be embarrassed if you don't understand something in our club. We welcome everyone from everywhere.</p> 
+			 <h3>You can't enjoy life if you don't show up.</h3> 
+			 <p>- Yet another of James Burk's great quotes.</p> 
+			 <br> 
+			
+			 
+			
+       <h2>We don't charge anything, but if you want to donate or pay for the extra training at Try Hack Me, please fill out the following:</h2> 
+     
+	   <form> 
+          <ul style="list-style-type:none"> 
+		  <li><input type="checkbox" id="donate10" value="10" /> 
+          <label for="donate10">Donate $10</label></li> 
+          <li><input type="checkbox" id="donate15" value="15" /> 
+          <label for="donate10">Donate $15</label>></li> 
+          <li><input type="checkbox" id="donate20" value="8" /> 
+          <label for="donate10">Donate $20</label>></li> 
+          <li><input type="checkbox" id="donate30" value="13" /> 
+          <label for="donate10">Donate $30</label>></li> 
+          <li><input type="checkbox" id="thme" value="30" /> 
+          <label for="thme">Pay a one time fee of $30 for Tryhackme.com plus tax</label>></li> 
+          <li><input type="submit" id="submit" value="Submit" /></li> 
+		  </ul> 
+       </form> 
+	   <br>
+	   <br>
+	   <br>
+	   <br>
+	   <br>
+	   <br>
+	   <br>
+    
+  
+    <script>function calcTotal()</script> 
+
+    <article> 
+          <h2>Semester Schedule</h2> 
+          <table border = 3px> 
+             <caption><h3>Spring 2022</h3></caption> 
+             <thead> 
+                <tr> 
+                   <th></th> 
+                   <th></th> 
+                   <th></th> 
+                   <th></th> 
+                   <th></th> 
+                </tr> 
+             </thead> 
+             <tbody border-color = 0000ff> 
+                <tr> 
+                 
+                   <td id="dater1"> 
+                      <p></p> 
+                      <p></p> 
+                   </td> 
+                   <td id="dater2"> 
+                      <p></p> 
+                      <p></p> 
+                   </td> 
+                   <td id="dater3"> 
+                      <p></p> 
+                      <p></p> 
+                   </td> 
+                   <td id="dater4"> 
+                      <p></p> 
+                      <p></p> 
+                   </td> 
+				   <td id="dater5"> 
+                      <p></p> 
+                      <p></p> 
+                   </td> 
+                </tr> 
+			    <tr> 
+                 
+                   <td id="dater6"> 
+                      <p></p> 
+                      <p></p> 
+                   </td> 
+                   <td id="dater7"> 
+                      <p></p> 
+                      <p></p> 
+                   </td> 
+                   <td id="dater8"> 
+                      <p></p> 
+                      <p></p> 
+                   </td> 
+                   <td id="dater9"> 
+                      <p></p> 
+                      <p></p> 
+                   </td> 
+				   <td id="dater10"> 
+                      <p></p> 
+                      <p></p> 
+                   </td> 
+                </tr> 
+             </tbody> 
+          </table> 
+		
+       </article> 
+	   <h4>For more information about the club, email me at <a href = "mailto: jburk4672@panther.chaffey.edu">James Burk</a> 
+      
+	   
+	   <!-- Beginning of New Form -->
+	   
+	   <article>
+      <h2>Submit Request</h2>
+	   <form action="results.htm">
+        <div id="errorText"></div> 
+        <div id="numErrorText"></div>
+        <fieldset id="contactinfo">
+          <label for="addrinput">
+            Street Address
+          </label>
+          <input type="text" id="addrinput" name="Address" required="required" placeholder="number and street name" />
+          <label for="cityinput">
+            City
+          </label>
+          <input type="text" id="cityinput" name="City" required="required" />
+         
+		  <label for="billState">State</label>
+            <select id="billState" name="BillingState" required="required">
+               <option value="AL">AL</option>
+               <option value="AK">AK</option>
+               <option value="AZ">AZ</option>
+               <option value="AR">AR</option>
+               <option value="CA">CA</option>
+               <option value="CO">CO</option>
+               <option value="CT">CT</option>
+               <option value="DE">DE</option>
+               <option value="DC">DC</option>
+               <option value="FL">FL</option>
+               <option value="GA">GA</option>
+               <option value="HI">HI</option>
+               <option value="ID">ID</option>
+               <option value="IL">IL</option>
+               <option value="IN">IN</option>
+               <option value="IA">IA</option>
+               <option value="KS">KS</option>
+               <option value="KY">KY</option>
+               <option value="LA">LA</option>
+               <option value="ME">ME</option>
+               <option value="MD">MD</option>
+               <option value="MA">MA</option>
+               <option value="MI">MI</option>
+               <option value="MN">MN</option>
+               <option value="MS">MS</option>
+               <option value="MO">MO</option>
+               <option value="MT">MT</option>
+               <option value="NE">NE</option>
+               <option value="NV">NV</option>
+               <option value="NH">NH</option>
+               <option value="NJ">NJ</option>
+               <option value="NM">NM</option>
+               <option value="NY">NY</option>
+               <option value="NC">NC</option>
+               <option value="ND">ND</option>
+               <option value="OH">OH</option>
+               <option value="OK">OK</option>
+               <option value="OR">OR</option>
+               <option value="PA">PA</option>
+               <option value="RI">RI</option>
+               <option value="SC">SC</option>
+               <option value="SD">SD</option>
+               <option value="TN">TN</option>
+               <option value="TX">TX</option>
+               <option value="UT">UT</option>
+               <option value="VT">VT</option>
+               <option value="VA">VA</option>
+               <option value="WA">WA</option>
+               <option value="WV">WV</option>
+               <option value="WI">WI</option>
+               <option value="WY">WY</option>
+            </select>
+		  
+          <label for="zipinput">
+            Zip/Postal Code
+          </label>
+          <input type="number" id="zipinput" name="Zip" required="required" />
+          <label for="ssn1">
+            Secret Club Pin #
+          </label>
+          <input type="number" id="ssn1" name="SSN1" class="ssn" maxlength="3" required="required" />
+          <label for="ssn2" id="ssn2label">
+            Social Security Number (continued)
+          </label>
+          <input type="number" id="ssn2" name="SSN2" class="ssn" maxlength="2" required="required" />
+          <label for="ssn3" id="ssn3label">
+            Social Security Number (end)
+          </label>
+          <input type="number" id="ssn3" name="SSN3" class="ssn" maxlength="4" required="required" />
+        </fieldset>
+        <fieldset id="submitsection">
+          <input type="submit" id="submitBtn" value="Submit" />
+        </fieldset>
+     </form>
+	 </article>
+	 
+	 <!-- End of new form-->
+	 
+	   <aside>
+         <h2 id="messageHead"></h2>
+         <p id="message"></p>
+      </aside>
+	  <h3>This little section let's you know if something is divided by or a divisor of 0</h3>
+	  <h4> Enter Either Value as Zero (0)</h4>
+    Value 1: <input type="text" id="t1"/> <br>
+    Value 2: <input type="text" id="t2"/> <br>
+    Answer: <input type="button" id="b1" value="Hit me" onclick="pp()"> <br>
+     </main> 
+     <footer>&copy; James Burk's school <a href = "mailto: jburk4672@panther.chaffey.edu">email</a></footer> 
+   </div> 
+    <script src="cal.js"></script> 
+   <script>
+    <script src="formies.js">
+    <form action="formies.htm" novalidate="novalidate">
+</script>  
+ </body> 
+
+
+ </html> 
