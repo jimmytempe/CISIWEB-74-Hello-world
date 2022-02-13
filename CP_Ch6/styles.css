@@ -51,11 +51,13 @@ body {
    font-family: Arial, Helvetica, sans-serif; 
 }
 */
+/*
 ol, ul {
    list-style: none;
 }
 
 /* page header */
+/*
 header {
    background: #FFFFFF;
    width: 100%;
@@ -69,6 +71,7 @@ header {
 }
 
 /* main content */
+/*
 article {
    width: 960px;
   
@@ -97,7 +100,7 @@ form div {
 }
 */
 /* form */
-
+/*
 fieldset {
   padding: 1em;
   background: white;
@@ -112,6 +115,7 @@ form {
   border: 2px solid black;
 }
 */
+/*
 input {
   font-size: 1em;
   float: left;
@@ -119,6 +123,7 @@ input {
 /*
 #billstate { align: auto;)
 */
+/*
 #ssn1, #ssn2, #ssn3 {
    display: inline-block;
    margin-right: 0.3em;
