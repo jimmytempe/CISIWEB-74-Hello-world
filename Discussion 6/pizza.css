@@ -1,0 +1,37 @@
+fieldset {
+   background-color: #add8e6;
+   position: center;
+   padding: 10px 10px 10px 10px;
+   margin-left: 10px;
+   margin-right: 10px;
+   margin-bottom: 24px;
+}
+
+th, legend  {
+		color: white;
+}
+
+
+label, input {
+	color: white;
+   display: block;
+}
+input {
+	background-color: #purple;
+	font-color: white;
+}
+
+
+form {
+	position: center;
+	margin-left: 14px;
+	width: 550px;
+    margin: 0 auto;
+	padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+ .chkbox {
+   padding-left: 10px;
+   font-weight: bold;
+ }
