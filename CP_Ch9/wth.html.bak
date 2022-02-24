@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CTF Competition Information Site</title>
+  <script src="modernizr.custom.65897.js"></script>
+</head>
+
+<body>
+	<header>
+	<img src="CIS74CTF.jpg" width="200px" />
+      <h1>CTF Competition page</h1>
+	  <h3>What the heck is a CTF?</h3>
+	<nav>
+	      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="wth.html">What is a CTF?</a></li>
+        <li><a href="resources.html">Resources</a></li>
+        <li><a href="cyberclub.html">About the Chaffey cybersecurity club</a></li>
+		<li><a href="websec.html">Staying safe on the web</a>
+		<li><a href="dates.html">Date Calculator</a></li>
+		<li><a href="ch8CP.html">Case Project CH 8</a></li>
+      </ul>
+	  </nav>
+    </header>
+    
+    <main>
+      <h2>Drum roll please....</h2>
+      <p>A CTF, is not a thing. It is an event. It's full name is called 'Capture The Flag.' Now, does that mean you have a bunch of Chaffey students crawling around in the mud trying to sneak onto an opponents base and steal their flag? Yes, well no, not really. You do need to get down and dirty though. Here is what and how it really is:</p>
+	  
+	  <p>Capturing the flag is simply hacking. Ethically hacking of course. When you are able to actually hack something, you get a little flag that looks something like this: chaffeyCTF {ch@553y4u13s}. If you look closely, insed those brackets it says Chaffey Rules in hacker lingo called 1337 (or leet speak)). Now, in these competitions, you are usually playing against the house if you will. That means that some organization has created a bunch tasks you must perform to capture and submit the flags in order to win. Fastest to finish is the one who wins. But there is another type of CTF:</p>
+	  
+	  <p><font-color="red"><b>Red</b> <font-color="black">vs. <font-color="blue"><b>Blue!</b> <font-color="black">As the name implies, there is a red team, who tries to hack, you guessed it, the blue team. Very few students in the club have any experience at this, so I can't talk to much about it because I just don't know and I like the other competitions anyways.</P>
+	  <br>
+	  <h2>There is no way I am ready for that!</h2>
+	  <p>Wrong. You are very very wrong. Sorry, no excuses. When I enrolled in my first (free to everyone) CTF competition, I didn't even know how to open a file in Linux. I wasn't even sure how to get to the command-line(that is where you use text instead of a mouse and cursor to run programs). I joined with some friends, some of them knew some stuff, but we all just kept dividing up the research and spent all day on Google until we all placed in the top 40%, which was fantastic for beginners. I knew nothing on how to do any of this. I didn't even really understand how to find or to even turn in the flags. We all just figured it out together as friends.</p>
+	  
+	  </p>But here's the great part, some of us did it rather blindly, but then two things have happened since. First, we learned about more and more resources that can help us learn more. See the 'Resouces' link above for more. Then the other thing is that I started using those resources with others and we started teaching newer people about them. True, people lose interest fast when homework starts piling up and getting hard, but for those of us who found it as fun as watching a show or playing a video game to take a break, we learned and had even more fun.</p>
+	  <h3>How can I get in on this?</h3>
+	  <p>For the special low introductory offer of absolutely free forever, you can join us. No dues, no fees, no training materials, nothing. If it costs money, the club or the school will pay for it. I don't even know if we can take a donation to be honest, and I don't care because we're good. All of the resources are free. Some of them put daily time limits on you unless you pay more, but most of us choose not to pay for the subscriptions. And then there's the videos, oh so many videos. You'll learn more about that under resources.</p>
+	  <h3>Okay, maybe I'm sold, but what's the time commitment?</h3>
+	  <p>In order to become a member of the cybersecurity club, you have to sign up from a link I'll give you when you email me. Once you go to the Canvas page, you basically 'enroll' into the club's Canvas class. There, you have to fill out, sign, and turn in your Ethical Hacking Agreement that states you won't use what you learn to do evil in the eyes of anyone morally nor illegally. That's it. You don't have to go to the formal meetings, you don't have to get together and train. You don't even have to practice if you just want to jump into a competition whenever one takes place. It's entirely up to you. Plus, just by signing up, you get say on school and scholarship apps that you are a member of the club as a student activity. But I really would like to get to know you, and we do have a Discord server that we post a lot of random crap in.</p>
+	  <h3>Okay, okay, okay! It sounds cool, but I'm not a tech student. My major is anything from nursing to automotive to art and I'm not interested in your scary STEM stuff!</h3>
+	  <p>First, we've had plenty of students who aren't tech majors in the club. We have had graphic artists, business students, etc. They have fun. We don't do this so that you become a hacker for a living. Many of us are CompSci majors that want to write video games or stuff like that. I personally want to read boring computer logs and write reports on them all day so I can just recommend best practices and move into management. Hacking is fun, but I don't want to do it for a living. But you are all welcome no matter what your goals in life are.</p>
+	  
+	  <h3>Please remember this, this club is not for everyone, but it is for anyone.</h3>
+      <br><br><br>
+	  <h4>To get started, email me at <a href = "mailto: jburk4672@panther.chaffey.edu">James Burk</a>
+      <form>
+        <label>Email: <input type="text" name="email"></label><br>
+        <label> Mobile: <input type="text" name="mobile"> </label><br>
+        <textarea name="comments" rows="4">Questions or comments</textarea><br>
+        <input type="submit" value="Submit" /><br>
+      </form>
+    </main>
+    <footer>&copy; James Burk's school <a href = "mailto: jburk4672@panther.chaffey.edu">email</a></footer>
+  </div>
+</body>
+
+</html>

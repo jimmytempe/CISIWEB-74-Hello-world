@@ -1,0 +1,50 @@
+"strict mode";
+
+var dt = document.getElementById("day").value;  	
+var mth = document.getElementById("month").value;
+var yr = document.getElementById("year").value;
+var cDt = new Date();   									//Gets current date (to the millisecond).
+var userDate = new Date();
+var total = ""
+function timeElapsed(){
+   userDate = new Date(dt + '/'+ mth + '/' + yr);
+   var years = cDt.getFullYear() - userDate.getFullYear();
+   var months = cDt.getMonth() - userDate.getMonth
+   userDate.setYear( cDt.getFullYear() );
+
+   if(today < userDate){
+      years-- ;
+   }
+   alert("You are " + years + " years old.");
+}
+
+
+//get the current date
+function currDate(){   
+   var cMonth = cDt.getMonth()+1;
+   var cDay = cDt.getDate();
+   var cYear = cDt.getFullYear();
+
+   //tester
+   alert(cMonth + '/' + cDay + '/' + cYear);
+}
+
+	//place value in results paragraph
+	total = document.getElementById(results);
+
+
+//event listener
+ function createEventListener() {
+        var submitButton = document.getElementById("submitBtn");
+          if(submitButton.addEventListener) {
+            submitButton.addEventListener("click", getSum, false);
+          } else if (submitButton.attachEvent) {
+            submitButton.attachEvent("onclick", getSum);
+          }
+      }
+
+if (window.addEventListener) {
+        window.addEventListener("load",createEventListener, false);
+      } else if (window.attachEvent) {
+        window.attachEvent("onload", createEventListener);
+      }

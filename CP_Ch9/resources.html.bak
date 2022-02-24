@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CTF Competition Information Site</title>
+  <script src="modernizr.custom.65897.js"></script>
+</head>
+
+<body>
+	<header>
+	<img src="CIS74CTF.jpg" width="200px" />
+      <h1>CTF Competition page</h1>
+	  <h3>What the heck is a CTF?</h3>
+	<nav>
+	      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="wth.html">What is a CTF?</a></li>
+        <li><a href="resources.html">Resources</a></li>
+        <li><a href="cyberclub.html">About the Chaffey cybersecurity club</a></li>
+		<li><a href="websec.html">Staying safe on the web</a>
+		<li><a href="dates.html">Date Calculator</a></li>
+		<li><a href="ch8CP.html">Case Project CH 8</a></li>
+      </ul>
+	  </nav>
+    </header>
+    
+    <main>
+      <h2>Here is a list of resources to get you started and my humble opinon on them.</h2>
+		<h4><a href="https://www.picoctf.org/">PicoCTF</a></h4>
+		<p>PicoCTF is a great place to start because it gives you easy exercises to do and there are tons of solutions published to solve all of them on Youtube. If you want to just get right to capturing flags from the gate, go here. Also, this is the site we demo in our formal meetings.</p>
+		<h4><a href="https://tryhackme.com">Try Hack Me</a></h4>
+		<p>This one is my favorite. It has easy to follow lessons. There is a paid membership for it that has a student discount, but I paid for it and never used it. You get to use the virtual environment on it for free for 45 minutes a day, so unless you really want to do lessons for hours on it, the free version is perfect for everyone. It is what I like to use to teach people, because it really does all the teaching.</p>
+		<h4>https://www.hackthebox.com/>Hack The Box</a></h4>
+		<h4><a href="https://www.youtube.com/c/JohnHammond010">John Hammond</a></h4>
+		<p>John Hammond is the man. He does walk throughs for so many of these CTF sites. Possibly all of them. He makes a ton of videos. He also does a lot of videos giving advice on careers in cybersecurity, best practices, and so much more. I could watch him for days on end and not get through a fraction of his material. He's great to watch when you need some down time.</p>
+		<h4>So, so much more</h4>
+		<p>The actual list of all the resources available is staggering. I gave you some to get started. There are tons of Youtube gurus that can help you learn this stuff as well like <a href="https://www.youtube.com/c/NetworkChuck">Network Chuck</a>, who is my all time favorite Youtuber, and good old <a href="https://www.youtube.com/c/DavidBombal">David Bombal</a>, who is a great resource on all things tech as well. Dave interviews John Hammond a lot as well, and they make amazing interviews together. There are many others, including real life hackers like allhazard(I forgot how to spell him in 133t), and Stoke. They have a lot of Twitch streams that are fun to watch if you have time.</p>
+		<p>But to get started, the links I've given you will give you hours and hours of material to go through if you want to, so it should be enough to get you going. Again, even though these skills can help you get a job as a penetration tester(legal hacker), you don't need to go that in depth. Just play with it and have fun and learn something new when you need a distraction. </p>
+		<br>
+		
+	  <h4>For more information about the club, email me at <a href = "mailto: jburk4672@panther.chaffey.edu">James Burk</a>
+      <form>
+        <label>Email: <input type="text" name="email"></label><br>
+        <label> Mobile: <input type="text" name="mobile"> </label><br>
+        <textarea name="comments" rows="4">Questions or comments</textarea><br>
+        <input type="submit" value="Submit" /><br>
+      </form>
+    </main>
+    <footer>&copy; James Burk's school <a href = "mailto: jburk4672@panther.chaffey.edu">email</a></footer>
+  </div>
+</body>
+
+</html>

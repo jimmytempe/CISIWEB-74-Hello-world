@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CTF Competition Information Site</title>
+  <script src="modernizr.custom.65897.js"></script>
+</head>
+
+<body>
+	<header>
+	<img src="CIS74CTF.jpg" width="200px" />
+      <h1>CTF Competition page</h1>
+	  <h3>All you ever wanted to know about CTFs (like what the heck are they?) but were afraid to ask!</h3>
+	<nav>
+	      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="wth.html">What is a CTF?</a></li>
+        <li><a href="resources.html">Resources</a></li>
+        <li><a href="cyberclub.html">About the Chaffey cybersecurity club</a></li>
+		<li><a href="websec.html">Staying safe on the web</a>
+		<li><a href="dates.html">Date Calculator</a></li>
+		<li><a href="ch8CP.html">Case Project CH 8</a></li>
+		<li><a href="ch9CP.html">Case Project CH 9</a></li>
+      </ul>
+	  </nav>
+    </header>
+    <main>
+        <div id="TEST">
+        </div>
+        <h2> Contact Us</h2>
+        <div>TESTING</div>
+        <form name="feedback">
+            <label for="select">Feedback for improvement:  </label> <select id="select">
+            <option value ="TEST1">Positive</option>
+            <option value ="TEST2">Negative</option>
+            <option value="TEST3">Inquiry</option>
+        </select>
+
+            <br>
+            <label for="name">Name: </label> <input type="text" id="name">
+            <br>
+            <label for="email">Email Address: </label> <input type="text" id="email">
+            <span class='error-message' id='email-error'></span>
+
+            <br>
+            <label for="subject">Subject: </label> <input type="text" id="subject">
+            <br>
+            <label for="message">Message</label><br><textarea id="message" rows="8" cols="50"></textarea><br>
+            <span class='error-message' id='message-error'></span>
+            <br>
+            <button type="button" value="Submit" id = "submit">Submit</button>
+            <button type="reset" value="Reset">Reset</button>
+        </form>
+        <p>
+            Pick A Tour Date!(dd/mm/yyyy)
+            <input id="date">
+            <button onclick="handleDateChanged()">click</button>
+        </p>
+
+        <p>
+            It's been since: <span id="result"></span>
+        </p>
+<script>
+
+    function handleDateChanged(){
+        var data = document.getElementById("date").value;
+        var dateParts = data.split("/");
+
+        var pickedDate = new Date(+dateParts[2], dateParts[1] - 1, +dateParts[0]);
+        var currentDate = new Date();
+
+        console.log(pickedDate);
+        console.log(currentDate);
+
+        var diff = Math.floor(currentDate.getTime() - pickedDate.getTime());
+        var day = 1000 * 60 * 60 * 24;
+
+        var days = Math.floor(diff / day);
+        var months = Math.floor(days / 31);
+        var years = Math.floor(months / 12);
+
+        document.getElementById("result").innerHTML = years + ' years, ' + months + ' months, ' + days + ' days'
+
+        function timeElapsed() {
+            var timeMonth = document.getElementById("month");
+            var timeDay = document.getElementById("day");
+            var timeYear = document.getElementById("year");
+            var currentDate = new Date();
+            var elapsed =
+                document.getElementById("timeElapsed").innerHTML = elapsed;
+        }
+
+        //Event Listener
+
+        function processInput() {
+            var propertyWidth = 300;
+            var propertyHeight = 100;
+            var winLeft = ((screen.width - propertyWidth) / 2);
+            var winTop = ((screen.height - propertyHeight) / 2);
+            var winOptions = "width=300,height=100";
+            winOptions += ",left=" + winLeft;
+            winOptions += ",top=" + winTop;
+            window.open("confirm.htm", "confirm", winOptions);
+        }
+
+        function createEventListener() {
+            var submitButton = document.getElementById("submit");
+            if (submitButton.addEventListener) {
+                submitButton.addEventListener("click", processInput, false);
+            }
+            else if (submitButton.attachEvent) {
+                submitButton.attachEvent("onclick", processInput);
+            }
+
+            if (submitButton.addEventListener) {
+                submitButton.addEventListener("click", timeElapsed, false);
+            } else if (submitButton.attachEvent) {
+                submitButton.attachEvent("onclick", timeElapsed);
+            }
+        }
+
+        if (window.addEventListener) {
+            window.addEventListener("load", createEventListener, false);
+        }
+        else if (window.attachEvent) {
+            window.attachEvent("onload", createEventListener);
+        }
+
+        function validateEmail() {
+            try {
+                var email = document.getElementById("email");
+                if (email.value === "") {
+                    throw"Please enter your email.";
+
+                }
+            }
+
+            catch (emailError) {
+                window.alert(emailError);
+                return false;
+            }
+            finally {
+                emailValid = true;
+            }
+        }
+    }
+</script>
+    </main>
+</body>
+
+</html>
